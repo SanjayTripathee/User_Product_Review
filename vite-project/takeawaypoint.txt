@@ -1,0 +1,38 @@
+package for connect frontend and backend
+    npm i axios
+
+->anythings that take time is known as promise
+
+   
+Network   (always select fetch/xhr)
+  Header 
+    url, 
+    method,
+    status code,
+    
+payload  
+    data sent by frontend
+
+preview
+      data sent by backend
+
+//
+to display popup when data is submit sucessifuly->we install toastify package
+  npm install react-toastify
+  also import its css from toastify document it make ducess msg in right place
+
+
+  npm install sweetalert2 => used to conform you sure want to delete
+
+
+  useEffect
+   //interVIew question(fixed)
+    lifeCycle of component
+      component did mount
+      component did unmount
+      component did update  
+    is asynchronous
+    [],
+    [count1]
+    [count1.count2]
+    cleanUp function
